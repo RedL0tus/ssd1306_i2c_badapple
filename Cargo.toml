@@ -1,0 +1,14 @@
+[package]
+name = "ssd1306_i2c_badapple"
+version = "0.1.0"
+authors = ["Kay Lin <i@v2bv.net>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ssd1306 = "0.3.0"
+tinybmp = "0.2.2"
+lazy_static = "1.4.0"
+embedded-graphics = "0.6.0"
+linux-embedded-hal = "0.3.0"
